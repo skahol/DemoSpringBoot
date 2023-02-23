@@ -24,6 +24,7 @@ public class DemoController {
 
     @CrossOrigin
     public void corsHeaders(HttpServletResponse response){
+
         response.addHeader("Access-Control-Allow-Origin","*");
         response.addHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
         response.addHeader("Access-Control-Allow-Headers", "origin, content-type, accept, x-requested-with");
