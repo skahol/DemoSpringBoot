@@ -8,4 +8,4 @@ OR
 
 Open termianl with directory path
 1. mvn clean install
-2. java -jar <jar-name>
+2. java -jar <--jar-name-->
